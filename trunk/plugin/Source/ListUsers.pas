@@ -79,7 +79,7 @@ begin
   vStr := GetLinksByID(i);
   if vStr = '' then
   begin
-    frm.RunSQL(nil, 'delete * from users where Id=' + IntToStr(i), 1);
+    frm.RunSQL(nil, 'delete from users where Id=' + IntToStr(i), 1);
     Result := 1;
   end
   else

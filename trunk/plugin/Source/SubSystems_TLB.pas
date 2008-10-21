@@ -12,16 +12,16 @@ unit SubSystems_TLB;
 // ************************************************************************ //
 
 // PASTLWTR : 1.2
-// File generated on 19.05.2007 21:04:06 from Type Library described below.
+// File generated on 11.09.2008 0:22:08 from Type Library described below.
 
 // ************************************************************************  //
-// Type Lib: F:\Documents and Settings\Phoenix\My Documents\delphi\CfgAddons\SubSystems\Source\SubSystems.tlb (1)
+// Type Lib: D:\Documents\Delphi\CfgAddons\Subsystems\plugin\Source\SubSystems.tlb (1)
 // LIBID: {818C5820-3A18-4876-A0E3-F80194C2A60E}
 // LCID: 0
 // Helpfile: 
 // HelpString: SubSystems
 // DepndLst: 
-//   (1) v2.0 stdole, (F:\WINDOWS\system32\stdole2.tlb)
+//   (1) v2.0 stdole, (C:\WINXP\system32\stdole2.tlb)
 // ************************************************************************ //
 {$TYPEDADDRESS OFF} // Unit must be compiled without type-checked pointers. 
 {$WARN SYMBOL_PLATFORM OFF}

@@ -860,6 +860,10 @@ begin
       QDocument.Fields[i].Value := Q1.Fields[i].Value;
     end;
 
+    /// ѕри копировании дата создани€ должна быть текущей
+    QDocumentDateTimeCreate.AsDateTime := Now;
+    QDocumentAuthorID.AsInteger := frm.CurUser;
+
     ToolBar1.Images := frmSS.ImageListSubSustems;
     ToolBar2.Images := frmSS.ImageListSubSustems;
     ToolBar3.Images := frmSS.ImageListSubSustems;

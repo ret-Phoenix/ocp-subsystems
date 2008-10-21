@@ -1,6 +1,6 @@
 object frmSubSystems: TfrmSubSystems
-  Left = 373
-  Top = 212
+  Left = 355
+  Top = 140
   Width = 726
   Height = 675
   Caption = #1055#1086#1076#1089#1080#1089#1090#1077#1084#1099
@@ -34,8 +34,8 @@ object frmSubSystems: TfrmSubSystems
     Left = 0
     Top = 0
     Width = 718
-    Height = 644
-    ActivePage = TabSheetNoteList
+    Height = 641
+    ActivePage = TabSheetMainSubSystems
     Align = alClient
     MultiLine = True
     TabOrder = 0
@@ -46,14 +46,14 @@ object frmSubSystems: TfrmSubSystems
       object Splitter3: TSplitter
         Left = 395
         Top = 22
-        Height = 596
+        Height = 593
         Align = alRight
       end
       object tvMetadata: TTreeView
         Left = 0
         Top = 22
         Width = 395
-        Height = 596
+        Height = 593
         Align = alClient
         HideSelection = False
         Images = ImageListSubSustems
@@ -150,7 +150,7 @@ object frmSubSystems: TfrmSubSystems
           Width = 222
           Height = 21
           Style = csDropDownList
-          ItemHeight = 0
+          ItemHeight = 13
           TabOrder = 0
           OnChange = ComboBoxViewChange
           Items.Strings = (
@@ -215,7 +215,7 @@ object frmSubSystems: TfrmSubSystems
         Left = 398
         Top = 22
         Width = 312
-        Height = 596
+        Height = 593
         Align = alRight
         Constraints.MinWidth = 1
         TabOrder = 2
@@ -223,7 +223,7 @@ object frmSubSystems: TfrmSubSystems
           Left = 1
           Top = 17
           Width = 310
-          Height = 578
+          Height = 575
           ActivePage = TabSheetAvailableSubSystems
           Align = alClient
           Constraints.MinWidth = 1
@@ -313,7 +313,7 @@ object frmSubSystems: TfrmSubSystems
               Left = 0
               Top = 22
               Width = 302
-              Height = 494
+              Height = 491
               Align = alClient
               HideSelection = False
               Indent = 19
@@ -356,7 +356,7 @@ object frmSubSystems: TfrmSubSystems
               Left = 0
               Top = 0
               Width = 302
-              Height = 516
+              Height = 513
               ObjectTypes = [otFolders, otNonFolders]
               Root = 'rfDesktop'
               UseShellImages = True
@@ -448,7 +448,7 @@ object frmSubSystems: TfrmSubSystems
                 Width = 175
                 Height = 21
                 Style = csDropDownList
-                ItemHeight = 0
+                ItemHeight = 13
                 TabOrder = 0
                 OnChange = ComboBoxSubconfigsOnASLChange
               end
@@ -612,7 +612,7 @@ object frmSubSystems: TfrmSubSystems
               Left = 0
               Top = 22
               Width = 302
-              Height = 494
+              Height = 491
               Align = alClient
               HideSelection = False
               Indent = 19
@@ -706,7 +706,7 @@ object frmSubSystems: TfrmSubSystems
         Left = 0
         Top = 38
         Width = 395
-        Height = 580
+        Height = 577
         Align = alClient
         Images = ImageListSubSustems
         Indent = 19
@@ -760,7 +760,7 @@ object frmSubSystems: TfrmSubSystems
         HeaderSettings.Font.Name = 'MS Sans Serif'
         HeaderSettings.Font.Style = []
         HeaderSettings.Height = 18
-        Version = '1.0.0.0'
+        Version = '1.0.0.4'
       end
     end
     object TabSheetToDo: TTabSheet
@@ -777,7 +777,7 @@ object frmSubSystems: TfrmSubSystems
       end
       object Splitter6: TSplitter
         Left = 0
-        Top = 545
+        Top = 542
         Width = 710
         Height = 3
         Cursor = crVSplit
@@ -845,7 +845,7 @@ object frmSubSystems: TfrmSubSystems
         Left = 0
         Top = 479
         Width = 710
-        Height = 66
+        Height = 63
         Align = alClient
         BiDiMode = bdRightToLeftNoAlign
         Columns = <
@@ -940,7 +940,7 @@ object frmSubSystems: TfrmSubSystems
               OnStringsChange = ListConditionsStringsChange
               ColWidths = (
                 97
-                583)
+                582)
             end
           end
           object TabSheet5: TTabSheet
@@ -999,7 +999,7 @@ object frmSubSystems: TfrmSubSystems
       end
       object pnlChildToDo: TPanel
         Left = 0
-        Top = 548
+        Top = 545
         Width = 710
         Height = 70
         Align = alBottom
@@ -1040,14 +1040,14 @@ object frmSubSystems: TfrmSubSystems
       object Splitter2: TSplitter
         Left = 531
         Top = 0
-        Height = 618
+        Height = 615
         Align = alRight
       end
       object Panel1: TPanel
         Left = 0
         Top = 0
         Width = 531
-        Height = 618
+        Height = 615
         Align = alClient
         TabOrder = 1
       end
@@ -1055,7 +1055,7 @@ object frmSubSystems: TfrmSubSystems
         Left = 534
         Top = 0
         Width = 176
-        Height = 618
+        Height = 615
         Align = alRight
         Checkboxes = True
         Columns = <
@@ -1074,7 +1074,7 @@ object frmSubSystems: TfrmSubSystems
         Left = 0
         Top = 0
         Width = 531
-        Height = 618
+        Height = 615
         ActivePage = TabSheetStatuses
         Align = alClient
         MultiLine = True
@@ -1147,7 +1147,7 @@ object frmSubSystems: TfrmSubSystems
             Left = 0
             Top = 22
             Width = 523
-            Height = 550
+            Height = 547
             Align = alClient
             Columns = <
               item
@@ -1189,7 +1189,7 @@ object frmSubSystems: TfrmSubSystems
             Left = 0
             Top = 22
             Width = 523
-            Height = 550
+            Height = 547
             Align = alClient
             HideSelection = False
             Images = ImageListSubSustems
@@ -1364,7 +1364,7 @@ object frmSubSystems: TfrmSubSystems
             Left = 0
             Top = 22
             Width = 523
-            Height = 550
+            Height = 547
             Align = alClient
             Columns = <
               item
@@ -1443,7 +1443,7 @@ object frmSubSystems: TfrmSubSystems
             Left = 0
             Top = 22
             Width = 523
-            Height = 550
+            Height = 547
             Align = alClient
             Columns = <
               item
@@ -1526,7 +1526,7 @@ object frmSubSystems: TfrmSubSystems
             Left = 0
             Top = 22
             Width = 523
-            Height = 550
+            Height = 547
             Align = alClient
             Columns = <
               item
@@ -1757,7 +1757,7 @@ object frmSubSystems: TfrmSubSystems
       OnShow = TabSheetConfsShow
       object Splitter1: TSplitter
         Left = 0
-        Top = 445
+        Top = 438
         Width = 710
         Height = 3
         Cursor = crVSplit
@@ -1824,7 +1824,7 @@ object frmSubSystems: TfrmSubSystems
         Left = 0
         Top = 22
         Width = 710
-        Height = 423
+        Height = 416
         Align = alClient
         Columns = <
           item
@@ -1842,7 +1842,7 @@ object frmSubSystems: TfrmSubSystems
       end
       object ListViewSubconfigs: TListView
         Left = 0
-        Top = 468
+        Top = 465
         Width = 710
         Height = 150
         Align = alBottom
@@ -1866,7 +1866,7 @@ object frmSubSystems: TfrmSubSystems
       end
       object ToolBar15: TToolBar
         Left = 0
-        Top = 444
+        Top = 441
         Width = 710
         Height = 24
         Align = alBottom
@@ -1925,7 +1925,7 @@ object frmSubSystems: TfrmSubSystems
         Left = 0
         Top = 22
         Width = 710
-        Height = 596
+        Height = 593
         Align = alClient
         DragMode = dmAutomatic
         HideSelection = False
@@ -2054,7 +2054,7 @@ object frmSubSystems: TfrmSubSystems
         Left = 0
         Top = 22
         Width = 710
-        Height = 596
+        Height = 593
         Align = alClient
         Columns = <
           item
@@ -2119,7 +2119,7 @@ object frmSubSystems: TfrmSubSystems
         Left = 0
         Top = 22
         Width = 710
-        Height = 600
+        Height = 593
         Align = alClient
         Columns = <
           item

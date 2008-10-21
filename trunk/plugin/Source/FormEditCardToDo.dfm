@@ -1,6 +1,6 @@
 object frmEditCardToDo: TfrmEditCardToDo
-  Left = 398
-  Top = 280
+  Left = 477
+  Top = 200
   Width = 468
   Height = 571
   Caption = #1047#1072#1076#1072#1095#1072
@@ -338,8 +338,8 @@ object frmEditCardToDo: TfrmEditCardToDo
     Left = 0
     Top = 146
     Width = 460
-    Height = 357
-    ActivePage = TabSheet1
+    Height = 350
+    ActivePage = TabSheet3
     Align = alClient
     MultiLine = True
     TabOrder = 1
@@ -347,7 +347,7 @@ object frmEditCardToDo: TfrmEditCardToDo
       Caption = #1054#1087#1080#1089#1072#1085#1080#1077
       object Splitter1: TSplitter
         Left = 0
-        Top = 213
+        Top = 206
         Width = 452
         Height = 3
         Cursor = crVSplit
@@ -355,7 +355,7 @@ object frmEditCardToDo: TfrmEditCardToDo
       end
       object Splitter2: TSplitter
         Left = 0
-        Top = 119
+        Top = 112
         Width = 452
         Height = 3
         Cursor = crVSplit
@@ -365,7 +365,7 @@ object frmEditCardToDo: TfrmEditCardToDo
         Left = 0
         Top = 0
         Width = 452
-        Height = 119
+        Height = 112
         Align = alClient
         DataField = 'Note'
         DataSource = DS_QDocument
@@ -374,7 +374,7 @@ object frmEditCardToDo: TfrmEditCardToDo
       end
       object JvRollOut1: TJvRollOut
         Left = 0
-        Top = 122
+        Top = 115
         Width = 452
         Height = 91
         Align = alBottom
@@ -398,7 +398,7 @@ object frmEditCardToDo: TfrmEditCardToDo
       end
       object JvRollOut2: TJvRollOut
         Left = 0
-        Top = 216
+        Top = 209
         Width = 452
         Height = 95
         Align = alBottom
@@ -609,7 +609,7 @@ object frmEditCardToDo: TfrmEditCardToDo
       end
       object GroupBox2: TGroupBox
         Left = 0
-        Top = 229
+        Top = 222
         Width = 452
         Height = 82
         Align = alBottom
@@ -717,7 +717,7 @@ object frmEditCardToDo: TfrmEditCardToDo
         Left = 0
         Top = 89
         Width = 452
-        Height = 222
+        Height = 215
         Align = alClient
         HideSelection = False
         Indent = 19
@@ -769,7 +769,7 @@ object frmEditCardToDo: TfrmEditCardToDo
         HeaderSettings.Font.Name = 'MS Sans Serif'
         HeaderSettings.Font.Style = []
         HeaderSettings.Height = 18
-        Version = '1.0.0.0'
+        Version = '1.0.0.4'
       end
     end
     object TabSheet5: TTabSheet
@@ -1176,7 +1176,7 @@ object frmEditCardToDo: TfrmEditCardToDo
         Left = 0
         Top = 0
         Width = 452
-        Height = 311
+        Height = 304
         ActivePage = tsLogEdits
         Align = alClient
         Style = tsFlatButtons
@@ -1426,7 +1426,7 @@ object frmEditCardToDo: TfrmEditCardToDo
   end
   object Panel2: TPanel
     Left = 0
-    Top = 503
+    Top = 496
     Width = 460
     Height = 41
     Align = alBottom
