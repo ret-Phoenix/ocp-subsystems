@@ -10,7 +10,7 @@ uses
   JvDBLookup,
   FormChoiceParentToDo, ToolWin, JvExMask, JvToolEdit, JvExControls,
   JvExDBGrids, JvDBGrid, JvComponent, JvExExtCtrls, treelist, JvRollOut,
-  JvSpin, JvDBSpinEdit;
+  JvSpin, JvDBSpinEdit, JvExtComponent;
 
 type
   TfrmEditCardToDo = class(TForm)
