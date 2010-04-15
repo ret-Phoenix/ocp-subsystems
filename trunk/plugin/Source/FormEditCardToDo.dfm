@@ -339,7 +339,7 @@ object frmEditCardToDo: TfrmEditCardToDo
     Top = 146
     Width = 460
     Height = 350
-    ActivePage = TabSheet3
+    ActivePage = TabSheet6
     Align = alClient
     MultiLine = True
     TabOrder = 1
@@ -769,7 +769,7 @@ object frmEditCardToDo: TfrmEditCardToDo
         HeaderSettings.Font.Name = 'MS Sans Serif'
         HeaderSettings.Font.Style = []
         HeaderSettings.Height = 18
-        Version = '1.0.0.4'
+        Version = '1.0.1.0'
       end
     end
     object TabSheet5: TTabSheet
@@ -1177,7 +1177,7 @@ object frmEditCardToDo: TfrmEditCardToDo
         Top = 0
         Width = 452
         Height = 304
-        ActivePage = tsLogEdits
+        ActivePage = TabSheet8
         Align = alClient
         Style = tsFlatButtons
         TabOrder = 0
@@ -1221,7 +1221,7 @@ object frmEditCardToDo: TfrmEditCardToDo
             Left = 0
             Top = 22
             Width = 444
-            Height = 227
+            Height = 251
             Align = alClient
             DataSource = dsQSubListLog
             TabOrder = 1
@@ -1299,7 +1299,7 @@ object frmEditCardToDo: TfrmEditCardToDo
             Left = 0
             Top = 22
             Width = 444
-            Height = 227
+            Height = 251
             Align = alClient
             DataSource = dsQSubListBlocks
             TabOrder = 1
@@ -1398,7 +1398,7 @@ object frmEditCardToDo: TfrmEditCardToDo
             Left = 0
             Top = 22
             Width = 444
-            Height = 227
+            Height = 251
             Align = alClient
             DataSource = DS_QSubListCategoryes
             TabOrder = 1
@@ -1779,6 +1779,7 @@ object frmEditCardToDo: TfrmEditCardToDo
   end
   object QListCategoryes: TADOQuery
     LockType = ltReadOnly
+    BeforeInsert = QListCategoryesBeforeInsert
     Parameters = <>
     SQL.Strings = (
       'select ID,Name from Categoryes where Isfolder=false')

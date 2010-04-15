@@ -1,6 +1,6 @@
 object frmSubSystems: TfrmSubSystems
-  Left = 355
-  Top = 140
+  Left = 522
+  Top = 228
   Width = 726
   Height = 675
   Caption = #1055#1086#1076#1089#1080#1089#1090#1077#1084#1099
@@ -35,7 +35,7 @@ object frmSubSystems: TfrmSubSystems
     Top = 0
     Width = 718
     Height = 641
-    ActivePage = TabSheetMainSubSystems
+    ActivePage = TabSheetConfs
     Align = alClient
     MultiLine = True
     TabOrder = 0
@@ -334,7 +334,7 @@ object frmSubSystems: TfrmSubSystems
               Left = 0
               Top = 0
               Width = 302
-              Height = 520
+              Height = 513
               Align = alClient
               Checkboxes = True
               Columns = <
@@ -352,24 +352,6 @@ object frmSubSystems: TfrmSubSystems
             Caption = 'Explorer'
             ImageIndex = 2
             OnShow = TabSheetExplShow
-            object ShellTreeView1: TShellTreeView
-              Left = 0
-              Top = 0
-              Width = 302
-              Height = 513
-              ObjectTypes = [otFolders, otNonFolders]
-              Root = 'rfDesktop'
-              UseShellImages = True
-              Align = alClient
-              AutoRefresh = False
-              HideSelection = False
-              Indent = 19
-              ParentColor = False
-              RightClickSelect = True
-              ShowRoot = False
-              TabOrder = 0
-              OnDblClick = ShellTreeView1DblClick
-            end
           end
           object TabSheetAvailableSubSystems: TTabSheet
             Caption = #1044#1086#1089#1090#1091#1087#1085#1099#1077' '#1087#1086#1076#1089#1080#1089#1090#1077#1084#1099
@@ -462,7 +444,7 @@ object frmSubSystems: TfrmSubSystems
               Left = 0
               Top = 22
               Width = 302
-              Height = 498
+              Height = 491
               Align = alClient
               Checkboxes = True
               Columns = <
@@ -671,7 +653,7 @@ object frmSubSystems: TfrmSubSystems
               Left = 0
               Top = 22
               Width = 302
-              Height = 498
+              Height = 491
               Align = alClient
               Columns = <
                 item
@@ -760,7 +742,7 @@ object frmSubSystems: TfrmSubSystems
         HeaderSettings.Font.Name = 'MS Sans Serif'
         HeaderSettings.Font.Style = []
         HeaderSettings.Height = 18
-        Version = '1.0.0.4'
+        Version = '1.0.1.0'
       end
     end
     object TabSheetToDo: TTabSheet
@@ -1139,7 +1121,7 @@ object frmSubSystems: TfrmSubSystems
               Width = 175
               Height = 21
               Style = csDropDownList
-              ItemHeight = 0
+              ItemHeight = 13
               TabOrder = 0
             end
           end
@@ -1210,7 +1192,7 @@ object frmSubSystems: TfrmSubSystems
             Left = 0
             Top = 22
             Width = 523
-            Height = 554
+            Height = 547
             Align = alClient
             Columns = <
               item
@@ -1356,7 +1338,7 @@ object frmSubSystems: TfrmSubSystems
               Width = 175
               Height = 21
               Style = csDropDownList
-              ItemHeight = 0
+              ItemHeight = 13
               TabOrder = 0
             end
           end
@@ -1517,7 +1499,7 @@ object frmSubSystems: TfrmSubSystems
               Width = 175
               Height = 21
               Style = csDropDownList
-              ItemHeight = 0
+              ItemHeight = 13
               TabOrder = 0
               OnChange = ComboBoxSubconfigsOnULChange
             end
@@ -1600,7 +1582,7 @@ object frmSubSystems: TfrmSubSystems
             Left = 0
             Top = 22
             Width = 523
-            Height = 554
+            Height = 547
             Align = alClient
             Columns = <
               item
@@ -1625,7 +1607,7 @@ object frmSubSystems: TfrmSubSystems
             Left = 0
             Top = 22
             Width = 523
-            Height = 554
+            Height = 547
             Align = alClient
             Columns = <
               item
@@ -1730,7 +1712,7 @@ object frmSubSystems: TfrmSubSystems
             Left = 0
             Top = 22
             Width = 523
-            Height = 554
+            Height = 547
             Align = alClient
             Columns = <
               item

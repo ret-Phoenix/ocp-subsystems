@@ -2110,12 +2110,12 @@ begin
     if FileExists(vPath) = False then
     begin
       if DirectoryExists(vPath) then
-        frm.ShellTreeView1.Path := vPath
+//        frm.ShellTreeView1.Path := vPath
       else
         Result := 0;
     end
     else if FileExists(vPath) then
-      frm.ShellTreeView1.Path := vPath
+//      frm.ShellTreeView1.Path := vPath
     else
       Result := 0;
   except

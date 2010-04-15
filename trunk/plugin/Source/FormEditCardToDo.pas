@@ -320,6 +320,7 @@ type
     procedure TreeList1Expanding(Sender: TObject; Node: TTreeNode;
       var AllowExpansion: Boolean);
     procedure TreeList1DblClick(Sender: TObject);
+    procedure QListCategoryesBeforeInsert(DataSet: TDataSet);
   private
     { Private declarations }
     procedure AddMetItems(vTree: TTreeView; Num: Integer; Parent: TTreeNode;
@@ -658,6 +659,7 @@ begin
     ShowMessage('Сначала необходимо записать задачу!');
     Exit;
   end;
+  QSubListCategoryes.Insert;
   QSubListCategoryesToDoID.AsInteger := QDocumentID.AsInteger;
   QSubListCategoryesTypeDataID.AsInteger := 5;
 end;
@@ -1122,6 +1124,12 @@ begin
     if Integer(TreeList1.Selected.Data) <> QDocumentID.AsInteger then
       frmSS.vToDoLst.OpenCard(Integer(TreeList1.Selected.Data));
   end;
+end;
+
+procedure TfrmEditCardToDo.QListCategoryesBeforeInsert(DataSet: TDataSet);
+begin
+  QSubListCategoryesToDoID.AsInteger := QDocumentID.AsInteger;
+  QSubListCategoryesTypeDataID.AsInteger := 5;
 end;
 
 end.
