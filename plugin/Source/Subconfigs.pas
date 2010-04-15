@@ -26,7 +26,7 @@ type
     procedure Choice; safecall;
     procedure OpenCard(var vID: SYSINT); safecall;
     procedure SetCurrent; safecall;
-    procedure GetCurrent; safecall;
+//    function GetCurrent() : SYSINT; safecall;
     function GetLinksByID(vID: SYSINT): WideString; safecall;
   protected
 
@@ -250,11 +250,11 @@ begin
 
   end;
 end;
-
-procedure TSubconfigs.GetCurrent;
-begin
-
-end;
+//
+//function TSubconfigs.GetCurrent() : SYSINT;
+//begin
+//  Result := frm.CurSubCfg;
+//end;
 
 procedure TSubconfigs.SetCurrent;
 var

@@ -239,7 +239,6 @@ type
     TabSheetSSObj: TTabSheet;
     ListViewIncludeSubSystems: TListView;
     TabSheetExpl: TTabSheet;
-    ShellTreeView1: TShellTreeView;
     TabSheetAvailableSubSystems: TTabSheet;
     ListViewSubSystems: TListView;
     ToolBar4: TToolBar;
@@ -2518,7 +2517,7 @@ end;
 
 procedure TfrmSubSystems.ShellTreeView1DblClick(Sender: TObject);
 begin
-  ShellTreeView1.SelectedFolder.ExecuteDefault;
+//  ShellTreeView1.SelectedFolder.ExecuteDefault;
 end;
 //------------------------------------------------------------------------------
 

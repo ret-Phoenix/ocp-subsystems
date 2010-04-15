@@ -97,11 +97,11 @@ var
   lSCnf: string;
 begin
   lParams := TStringList.Create;
-  lParams.Add('0');
-  lParams.Add('0');
+//  lParams.Add(frm.vSubcfg.);
+//  lParams.Add('0');
 
-//  lParams.Add(IntToStr(frm.GetItemID(frm.cbbNoteSubConfig)));
-//  lParams.Add(IntToStr(frm.GetItemID(frm.cbbNoteSubConfig)));
+  lParams.Add(IntToStr(frm.CurSubCfg));
+  lParams.Add(IntToStr(frm.CurSubCfg));
 
   List.Items.Clear;
 
@@ -117,8 +117,8 @@ begin
     '		and (m.Subconfig=:pSC)' +
     ' where' +
     '	(n.Subconfig=:pSC) or (n.Subconfig=0)'
-    , 0);
-    
+    , 0,lParams);
+
   Q.First;
   while not Q.Eof do
   begin

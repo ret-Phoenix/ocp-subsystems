@@ -12,10 +12,10 @@ unit SubSystems_TLB;
 // ************************************************************************ //
 
 // PASTLWTR : 1.2
-// File generated on 11.09.2008 0:22:08 from Type Library described below.
+// File generated on 24.10.2008 9:28:54 from Type Library described below.
 
 // ************************************************************************  //
-// Type Lib: D:\Documents\Delphi\CfgAddons\Subsystems\plugin\Source\SubSystems.tlb (1)
+// Type Lib: D:\_Phoenix\Delphi\CfgAddons\SubSystems\Source\plugin\Source\SubSystems.tlb (1)
 // LIBID: {818C5820-3A18-4876-A0E3-F80194C2A60E}
 // LCID: 0
 // Helpfile: 
@@ -1160,7 +1160,6 @@ type
     procedure Choice; safecall;
     procedure OpenCard(var vID: SYSINT); safecall;
     procedure SetCurrent; safecall;
-    procedure GetCurrent; safecall;
     function GetLinksByID(vID: SYSINT): WideString; safecall;
   end;
 
@@ -1178,7 +1177,6 @@ type
     procedure Choice; dispid 205;
     procedure OpenCard(var vID: SYSINT); dispid 206;
     procedure SetCurrent; dispid 207;
-    procedure GetCurrent; dispid 208;
     function GetLinksByID(vID: SYSINT): WideString; dispid 209;
   end;
 
